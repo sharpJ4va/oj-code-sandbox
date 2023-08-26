@@ -1,7 +1,8 @@
-package com.sharp.myoj.judge.codesandbox;
+package com.sharp.ojcodesandbox;
 
-import com.sharp.myoj.judge.codesandbox.model.ExecuteCodeRequest;
-import com.sharp.myoj.judge.codesandbox.model.ExecuteCodeResponse;
+
+import com.sharp.ojcodesandbox.model.ExecuteCodeRequest;
+import com.sharp.ojcodesandbox.model.ExecuteCodeResponse;
 
 /**
  * 代码沙箱接口定义
@@ -14,5 +15,5 @@ public interface CodeSandbox {
      * @param executeCodeRequest
      * @return
      */
-    ExecuteCodeResponse executeCode(ExecuteCodeRequest executeCodeRequest);
+    ExecuteCodeResponse executeCode(ExecuteCodeRequest executeCodeRequest) throws InterruptedException;
 }

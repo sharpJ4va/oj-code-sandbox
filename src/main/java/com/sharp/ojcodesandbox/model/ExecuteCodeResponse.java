@@ -1,4 +1,4 @@
-package com.sharp.myoj.judge.codesandbox.model;
+package com.sharp.ojcodesandbox.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
